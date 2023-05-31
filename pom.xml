@@ -26,14 +26,14 @@
 
 	<profiles>
 		<profile>
-			<id>s4.juin2021</id>
+			<id>s4.juin2021.exo1</id>
 			<build>
 				<plugins>
 					<plugin>
 						<groupId>org.openjfx</groupId>
 						<artifactId>javafx-maven-plugin</artifactId>
 						<configuration>
-							<mainClass>s4.juin2021.Visualizer</mainClass>
+							<mainClass>s4.juin2021.exo1.Visualizer</mainClass>
 						</configuration>
 					</plugin>
 				</plugins>

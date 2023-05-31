@@ -1,4 +1,4 @@
-package s4.juin2021;
+package s4.juin2021.exo1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
