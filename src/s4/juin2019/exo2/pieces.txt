@@ -1,3 +1,6 @@
+# attention cette liste n'est pas exhaustive, j'ai oublié plein de symétries
+# psk j'ai oublié qu'on pouvait faire tourner les pièces sur leur axe vertical...
+
 # pièces déjà posées
 1
 xxxxxxxxxxx
@@ -23,6 +26,7 @@ xxx
 ox
 xx
 ox
+=3;3;0
 
 # bleu ciel
 3
@@ -37,6 +41,7 @@ ox
 --
 xx
 xo
+#=3;5;1
 
 # orange
 4
@@ -55,6 +60,7 @@ oxx
 oox
 xxx
 oxo
+#=1;0;2
 
 # jaune
 5
@@ -91,3 +97,14 @@ xo
 xo
 xo
 xx
+-
+ox
+ox
+ox
+xx
+-
+xooo
+xxxx
+-
+xxxx
+ooox

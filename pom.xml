@@ -39,6 +39,20 @@
 				</plugins>
 			</build>
 		</profile>
+		<profile>
+			<id>s4.juin2019.exo2</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.openjfx</groupId>
+						<artifactId>javafx-maven-plugin</artifactId>
+						<configuration>
+							<mainClass>s4.juin2019.exo2.Visualizer</mainClass>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
 
 	<dependencies>

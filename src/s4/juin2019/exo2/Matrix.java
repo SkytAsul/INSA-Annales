@@ -1,4 +1,4 @@
-package s4.juin2019;
+package s4.juin2019.exo2;
 
 public class Matrix {
 	private int[][] mat;

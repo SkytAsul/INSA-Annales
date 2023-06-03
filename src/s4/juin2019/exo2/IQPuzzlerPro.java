@@ -1,4 +1,4 @@
-package s4.juin2019;
+package s4.juin2019.exo2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class IQPuzzlerPro {
 
 	private List<Piece> pieces = new ArrayList<>();
 
-	public IQPuzzlerPro() {}
+	private IQPuzzlerPro() {}
 
 	public void read() {
 		try (BufferedReader reader = new BufferedReader(
@@ -81,12 +81,17 @@ public class IQPuzzlerPro {
 		pendingPiece = null;
 	}
 
-	public static void main(String[] args) {
+	public static Piece[] readPieces() {
 		IQPuzzlerPro puzzler = new IQPuzzlerPro();
 		puzzler.read();
-		// System.out.println(puzzler.pieces);
+		return puzzler.pieces.toArray(Piece[]::new);
+	}
+
+	public static void main(String[] args) {
+		Piece[] pieces = readPieces();
+		// System.out.println(pieces);
 		Board board = new Board(5, 11);
-		Solver solver = new Solver(board, puzzler.pieces.toArray(Piece[]::new));
+		Solver solver = new Solver(board, pieces);
 		System.out.println(solver.search());
 	}
 

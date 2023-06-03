@@ -1,11 +1,11 @@
-package s4.juin2019;
+package s4.juin2019.exo2;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class Board {
 	// Le plateau est représenté par une matrice
-	private Matrix board;
+	protected Matrix board;
 	// L’ensemble des cases libres du plateau (une case libre dans le plateau a pour valeur 0)
 	private Set<Coordinate> free;
 

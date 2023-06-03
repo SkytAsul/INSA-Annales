@@ -1,4 +1,4 @@
-package s4.juin2019;
+package s4.juin2019.exo2;
 
 import java.util.List;
 
